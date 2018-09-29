@@ -8,7 +8,7 @@ password Zte521
 
 For adding  new user 
 
-sendcmd 1 DB set DevAuthInfo
+sendcmd 1 DB p  DevAuthInfo
 #menampilkan semua isi
 sendcmd 1 DB set DevAuthInfo 5 Enable 1
 # 5 -> row , Enable ->1 -> true
